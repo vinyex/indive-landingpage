@@ -1,23 +1,23 @@
-# Nuxt 3 Minimal Starter
+# Frontend Indive Animation
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Precondition
+
+Make sure to have `npm` and `node` in your device
+I'm using `node: v21.7.3` and `npm: 10.5.0`
 
 ## Setup
 
-Make sure to install the dependencies:
+Clone this repository by doing below command:
 
 ```bash
-# npm
+git clone https://github.com/vinyex/indive-landingpage
+```
+
+Move into the folder and install the dependencies
+
+```bash
+cd indive-landingpage
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
