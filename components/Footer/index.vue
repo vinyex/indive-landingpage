@@ -1,8 +1,8 @@
 <template>
-	<div class="relative w-full h-full pt-8 pb-[10rem] bg-black">
+	<div id="footer" class="relative w-full h-full pt-8 pb-[10rem] bg-black">
 		<UContainer>
 			<div class="flex flex-col lg:grid lg:grid-cols-3 gap-12">
-				<div class="flex flex-col lg:flex-row gap-8">
+				<div id="footer-telephone" class="flex flex-col lg:flex-row gap-8">
 					<IconsPhone />
 					<div class="flex flex-col gap-2">
 						<a
@@ -14,7 +14,7 @@
 						>
 					</div>
 				</div>
-				<div class="flex flex-col lg:flex-row gap-8">
+				<div id="footer-email" class="flex flex-col lg:flex-row gap-8">
 					<IconsEnvelope />
 					<div class="flex flex-col gap-2">
 						<a
@@ -26,7 +26,7 @@
 						>
 					</div>
 				</div>
-				<div class="flex flex-col lg:flex-row gap-8">
+				<div id="footer-address" class="flex flex-col lg:flex-row gap-8">
 					<IconsUser />
 					<div class="flex flex-col gap-2">
 						<span

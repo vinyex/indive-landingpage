@@ -3,10 +3,13 @@
 		<div
 			class="flex flex-col justify-evenly lg:grid lg:grid-cols-2 lg:gap-[10rem]"
 		>
-			<div class="max-w-[411px] max-h-[530px]">
+			<div id="about-us-image" class="max-w-[411px] max-h-[530px]">
 				<NuxtImg class="w-full h-full" src="/images/about-us.png" />
 			</div>
-			<div class="flex flex-col lg:justify-center gap-[40px] max-w-[400px]">
+			<div
+				id="about-us-text"
+				class="flex flex-col lg:justify-center gap-[40px] max-w-[400px]"
+			>
 				<div class="flex flex-col">
 					<h2
 						class="relative uppercase font-rubik font-bold text-[#000] text-[60px] lg:leading-[71px] before:absolute before:top-[10px] before:left-[-40px] before:block before:w-[5px] before:h-[43px] before:bg-[#076CF0]"

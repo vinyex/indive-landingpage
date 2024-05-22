@@ -1,10 +1,13 @@
 <template>
 	<UContainer>
 		<div class="flex flex-col justify-between lg:flex-row-reverse lg:gap-16">
-			<div class="max-w-[575px] max-h-[535px] round">
+			<div id="section-5-image" class="max-w-[575px] max-h-[535px] round">
 				<NuxtImg class="w-full h-full rounded-xl" src="/images/be-unique.png" />
 			</div>
-			<div class="flex flex-col lg:justify-center gap-[40px] max-w-[400px]">
+			<div
+				id="section-5-text"
+				class="flex flex-col lg:justify-center gap-[40px] max-w-[400px]"
+			>
 				<div class="flex flex-col">
 					<h2
 						class="relative uppercase font-rubik font-bold text-[#000] text-[60px] lg:leading-[71px] before:absolute before:top-[10px] before:left-[-40px] before:block before:w-[5px] before:h-[43px] before:bg-[#076CF0]"

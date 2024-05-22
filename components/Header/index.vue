@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full bg-[#06090E] font-abel">
+	<div id="header" class="w-full bg-[#06090E] font-abel">
 		<UContainer class="flex justify-between lg:block">
 			<UHorizontalNavigation
 				:ui="{
