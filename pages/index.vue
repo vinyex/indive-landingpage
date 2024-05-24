@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<!-- Wrapper Background & Text -->
-		<div class="relative w-full h-full">
+		<div id="home" class="relative w-full h-full">
 			<!-- Background Image -->
 			<ContentBackground image="/images/background.png" />
 			<!-- Title & Subtitle -->
@@ -25,12 +25,14 @@
 			</UContainer>
 		</div>
 		<!-- About Us -->
-		<div id="section-2" class="relative w-full h-full py-8">
-			<ContentAboutUs />
-		</div>
-		<!-- Work Features -->
-		<div id="section-3" class="relative w-full h-full py-[8rem]">
-			<ContentWorkFeatures />
+		<div id="about-us">
+			<div class="relative w-full h-full py-8">
+				<ContentAboutUs />
+			</div>
+			<!-- Work Features -->
+			<div id="section-3" class="relative w-full h-full py-[8rem]">
+				<ContentWorkFeatures />
+			</div>
 		</div>
 		<!-- Unique Experiences -->
 		<div id="section-4" class="relative w-full h-full mb-[8rem]">
@@ -42,15 +44,15 @@
 			</ContentBackgroundText>
 		</div>
 		<!-- Be Unique -->
-		<div id="section-5" class="relative w-full h-full py-8">
+		<div id="people" class="relative w-full h-full py-8">
 			<ContentPeopleMatter />
 		</div>
 		<!-- Products -->
-		<div id="section-6" class="relative w-full h-full pb-8 pt-[10rem]">
+		<div id="products" class="relative w-full h-full pb-8 pt-[10rem]">
 			<ContentProducts />
 		</div>
 		<!-- Technology Stack -->
-		<div id="section-7" class="relative w-full h-full pt-[8rem] pb-[5rem]">
+		<div id="service" class="relative w-full h-full pt-[8rem] pb-[5rem]">
 			<UContainer>
 				<div
 					class="flex flex-col items-center gap-[4rem] lg:grid lg:grid-cols-4 lg:gap-5"
@@ -80,7 +82,7 @@
 			</UContainer>
 		</div>
 		<!-- Support Form -->
-		<div id="section-9" class="relative w-full h-full pb-8 pt-[13rem] bg-black">
+		<div id="contact" class="relative w-full h-full pb-8 pt-[13rem] bg-black">
 			<FormSupport />
 		</div>
 	</div>

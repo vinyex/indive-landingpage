@@ -17,7 +17,7 @@ export const useGsap = () => {
 					trigger: "#header",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -37,7 +37,7 @@ export const useGsap = () => {
 						trigger: "#header",
 						// start: "top bottom", // when the top of the element hits the bottom of the viewport
 						// end: "bottom top", // when the bottom of the element hits the top of the viewport
-						toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+						toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 					},
 				}
 			);
@@ -57,10 +57,10 @@ export const useGsap = () => {
 				duration: 1,
 				delay: 0.5,
 				scrollTrigger: {
-					trigger: "#section-3",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
-					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					trigger: "#about-us",
+					start: "center bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom 30%", // when the bottom of the element hits the top of the viewport
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -77,10 +77,10 @@ export const useGsap = () => {
 				duration: 1,
 				delay: 0.5,
 				scrollTrigger: {
-					trigger: "#section-3",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
-					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					trigger: "#about-us",
+					start: "center bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom 30%", // when the bottom of the element hits the top of the viewport
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -100,10 +100,10 @@ export const useGsap = () => {
 				delay: 0.5,
 				ease: "back.out",
 				scrollTrigger: {
-					trigger: "#section-4",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					trigger: "#section-3",
+					start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -123,10 +123,10 @@ export const useGsap = () => {
 				delay: 0.5,
 				ease: "back.out",
 				scrollTrigger: {
-					trigger: "#section-5",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					trigger: "#section-4",
+					start: "center bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -146,10 +146,10 @@ export const useGsap = () => {
 				duration: 1,
 				delay: 0.5,
 				scrollTrigger: {
-					trigger: "#section-6",
+					trigger: "#people",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -167,10 +167,10 @@ export const useGsap = () => {
 				duration: 1,
 				delay: 0.5,
 				scrollTrigger: {
-					trigger: "#section-6",
+					trigger: "#people",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -190,10 +190,10 @@ export const useGsap = () => {
 				duration: 1.5,
 				delay: 0.5,
 				scrollTrigger: {
-					trigger: "#section-7",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					trigger: "#products",
+					start: "center bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -211,10 +211,10 @@ export const useGsap = () => {
 				duration: 2,
 				delay: 0.5,
 				scrollTrigger: {
-					trigger: "#section-7",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					trigger: "#products",
+					start: "center bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -222,7 +222,7 @@ export const useGsap = () => {
 
 	const section_7_animate = () => {
 		gsap.fromTo(
-			"#section-7",
+			"#service",
 			{
 				opacity: 0,
 				x: "-50%",
@@ -234,10 +234,10 @@ export const useGsap = () => {
 				delay: 0.5,
 				ease: "back.out",
 				scrollTrigger: {
-					trigger: "#section-8",
-					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					trigger: "#service",
+					start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -257,10 +257,10 @@ export const useGsap = () => {
 					duration: 1,
 					delay: 0.05 * index,
 					scrollTrigger: {
-						trigger: "#section-9",
+						trigger: "#contact",
 						// start: "top bottom", // when the top of the element hits the bottom of the viewport
 						// end: "bottom top", // when the bottom of the element hits the top of the viewport
-						toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+						toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 					},
 				}
 			);
@@ -284,7 +284,7 @@ export const useGsap = () => {
 					trigger: "#footer",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -304,7 +304,7 @@ export const useGsap = () => {
 					trigger: "#footer",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -324,7 +324,7 @@ export const useGsap = () => {
 					trigger: "#footer",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
@@ -344,7 +344,7 @@ export const useGsap = () => {
 					trigger: "#footer",
 					// start: "top bottom", // when the top of the element hits the bottom of the viewport
 					// end: "bottom top", // when the bottom of the element hits the top of the viewport
-					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
+					toggleActions: "play none none none", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
 		);
