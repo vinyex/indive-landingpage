@@ -15,8 +15,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#header",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -35,8 +35,8 @@ export const useGsap = () => {
 					delay: 0.05 * index,
 					scrollTrigger: {
 						trigger: "#header",
-						start: "top bottom", // when the top of the element hits the bottom of the viewport
-						end: "bottom top", // when the bottom of the element hits the top of the viewport
+						// start: "top bottom", // when the top of the element hits the bottom of the viewport
+						// end: "bottom top", // when the bottom of the element hits the top of the viewport
 						toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 					},
 				}
@@ -58,8 +58,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#section-3",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -78,8 +78,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#section-3",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -101,8 +101,8 @@ export const useGsap = () => {
 				ease: "back.out",
 				scrollTrigger: {
 					trigger: "#section-4",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -124,8 +124,8 @@ export const useGsap = () => {
 				ease: "back.out",
 				scrollTrigger: {
 					trigger: "#section-5",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -147,8 +147,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#section-6",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -168,8 +168,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#section-6",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -191,8 +191,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#section-7",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -212,8 +212,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#section-7",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -235,8 +235,8 @@ export const useGsap = () => {
 				ease: "back.out",
 				scrollTrigger: {
 					trigger: "#section-8",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -258,8 +258,8 @@ export const useGsap = () => {
 					delay: 0.05 * index,
 					scrollTrigger: {
 						trigger: "#section-9",
-						start: "top bottom", // when the top of the element hits the bottom of the viewport
-						end: "bottom top", // when the bottom of the element hits the top of the viewport
+						// start: "top bottom", // when the top of the element hits the bottom of the viewport
+						// end: "bottom top", // when the bottom of the element hits the top of the viewport
 						toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 					},
 				}
@@ -282,8 +282,8 @@ export const useGsap = () => {
 				ease: "back.out",
 				scrollTrigger: {
 					trigger: "#footer",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -302,8 +302,8 @@ export const useGsap = () => {
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: "#footer",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -322,8 +322,8 @@ export const useGsap = () => {
 				delay: 0.75,
 				scrollTrigger: {
 					trigger: "#footer",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
@@ -342,8 +342,8 @@ export const useGsap = () => {
 				delay: 1,
 				scrollTrigger: {
 					trigger: "#footer",
-					start: "top bottom", // when the top of the element hits the bottom of the viewport
-					end: "bottom top", // when the bottom of the element hits the top of the viewport
+					// start: "top bottom", // when the top of the element hits the bottom of the viewport
+					// end: "bottom top", // when the bottom of the element hits the top of the viewport
 					toggleActions: "play reverse play reverse", // play on enter, do nothing on leave, do nothing on enter back, reset on leave back
 				},
 			}
