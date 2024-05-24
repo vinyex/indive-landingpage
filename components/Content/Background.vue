@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<NuxtImg :src="image" />
+		<NuxtImg class="w-full" :src="image" />
 	</div>
 </template>
 
